@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Heardle Answer Revealer",
+  "version": "1.0",
+
+  "description": "Reveal the correct answer on Heardle",
+
+  "content_scripts": [
+    {
+      "matches": [  "*://*.glitch.me/*"
+				],
+      "js": ["har.js"]
+    }
+  ]
+
+}
